@@ -1,9 +1,13 @@
 # Production:
 /production/*
 
-# Backup:
+# Eagle:
+eagle.epf
 *.s#?
 *.b#?
+
+# Script:
+*.ps1
 
 # CAM:
 /Gerber/*

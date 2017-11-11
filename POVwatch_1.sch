@@ -718,7 +718,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-3.84" y="6" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 <text x="-3.9" y="-6" size="0.8128" layer="21" font="vector">USB_MINI</text>
 </package>
-<package name="USB-MICRO-5+6P-SMD-0.65-AB">
+<package name="USB-MICRO">
 <smd name="2" x="-0.65" y="2.875" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="1" x="-1.3" y="2.875" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0" y="2.875" dx="1.35" dy="0.4" layer="1" rot="R90"/>
@@ -778,16 +778,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <rectangle x1="1.2" y1="-0.9" x2="1.85" y2="0.9" layer="51"/>
 </package>
 <package name="MSOP10">
-<smd name="8" x="1.805" y="0" dx="0.99" dy="0.25" layer="1"/>
-<smd name="3" x="-1.805" y="0" dx="0.99" dy="0.25" layer="1"/>
-<smd name="2" x="-1.805" y="0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="1" x="-1.805" y="1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="4" x="-1.805" y="-0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="5" x="-1.805" y="-1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="7" x="1.805" y="-0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="6" x="1.805" y="-1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="9" x="1.805" y="0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="10" x="1.805" y="1" dx="0.99" dy="0.25" layer="1"/>
+<smd name="8" x="2.055" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="3" x="-2.055" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="2" x="-2.055" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="1" x="-2.055" y="1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="4" x="-2.055" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="5" x="-2.055" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="7" x="2.055" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="6" x="2.055" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="9" x="2.055" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="10" x="2.055" y="1" dx="0.9" dy="0.3" layer="1"/>
 <wire x1="-1.4" y1="1.45" x2="1.4" y2="1.45" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-1.45" x2="1.4" y2="-1.45" width="0.127" layer="21"/>
 <circle x="-0.873125" y="0.714375" radius="0.1016" width="0.3048" layer="21"/>
@@ -795,16 +795,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-1.905" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-1.4" y1="1.45" x2="-1.4" y2="-1.45" width="0.127" layer="51"/>
 <wire x1="1.4" y1="1.45" x2="1.4" y2="-1.45" width="0.127" layer="51"/>
-<rectangle x1="-2.1" y1="0.9" x2="-1.4" y2="1.1" layer="51"/>
-<rectangle x1="-2.1" y1="0.4" x2="-1.4" y2="0.6" layer="51"/>
-<rectangle x1="-2.1" y1="-0.1" x2="-1.4" y2="0.1" layer="51"/>
-<rectangle x1="-2.1" y1="-0.6" x2="-1.4" y2="-0.4" layer="51"/>
-<rectangle x1="-2.1" y1="-1.1" x2="-1.4" y2="-0.9" layer="51"/>
-<rectangle x1="1.4" y1="-1.1" x2="2.1" y2="-0.9" layer="51"/>
-<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="-0.4" layer="51"/>
-<rectangle x1="1.4" y1="-0.1" x2="2.1" y2="0.1" layer="51"/>
-<rectangle x1="1.4" y1="0.4" x2="2.1" y2="0.6" layer="51"/>
-<rectangle x1="1.4" y1="0.9" x2="2.1" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="0.9" x2="-1.6" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="0.4" x2="-1.6" y2="0.6" layer="51"/>
+<rectangle x1="-2.3" y1="-0.1" x2="-1.6" y2="0.1" layer="51"/>
+<rectangle x1="-2.3" y1="-0.6" x2="-1.6" y2="-0.4" layer="51"/>
+<rectangle x1="-2.3" y1="-1.1" x2="-1.6" y2="-0.9" layer="51"/>
+<rectangle x1="1.6" y1="-1.1" x2="2.3" y2="-0.9" layer="51"/>
+<rectangle x1="1.6" y1="-0.6" x2="2.3" y2="-0.4" layer="51"/>
+<rectangle x1="1.6" y1="-0.1" x2="2.3" y2="0.1" layer="51"/>
+<rectangle x1="1.6" y1="0.4" x2="2.3" y2="0.6" layer="51"/>
+<rectangle x1="1.6" y1="0.9" x2="2.3" y2="1.1" layer="51"/>
 </package>
 <package name="QFN32">
 <description>&lt;h3&gt;32-pin QFN 5.0 x 5.0 mm, 0.5mm pitch&lt;/h3&gt;
@@ -895,14 +895,6 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-1.905" y="-4.445" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="JMPER-SMD">
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
@@ -1052,9 +1044,25 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <smd name="10" x="2.25" y="0" dx="0.29" dy="2.5" layer="1"/>
 </package>
 <package name="BOARD-STICK">
-<smd name="TOP" x="0" y="4.6" dx="2.4" dy="11.2" layer="1"/>
-<wire x1="0" y1="0" x2="0" y2="6.985" width="0.7" layer="46"/>
-<smd name="BOT" x="0" y="4.6" dx="2.4" dy="11.2" layer="16" rot="R180"/>
+<smd name="TOP" x="0" y="4.2825" dx="2.4" dy="10.6" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="6.35" width="0.7" layer="46"/>
+<smd name="BOT" x="0" y="4.2825" dx="2.4" dy="10.6" layer="16" rot="R180"/>
+</package>
+<package name="SOT23-0">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; Low Power</description>
+<wire x1="1.422" y1="-0.781" x2="-1.423" y2="-0.781" width="0.127" layer="51"/>
+<wire x1="-1.423" y1="-0.781" x2="-1.423" y2="0.781" width="0.127" layer="21"/>
+<wire x1="-1.423" y1="0.781" x2="1.422" y2="0.781" width="0.127" layer="51"/>
+<wire x1="1.422" y1="0.781" x2="1.422" y2="-0.781" width="0.127" layer="21"/>
+<circle x="-0.8325" y="0.1825" radius="0.1016" width="0.3048" layer="21"/>
+<smd name="1" x="-0.95" y="-1.15" dx="0.6" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1.15" dx="0.6" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.15" dx="0.6" dy="0.9" layer="1"/>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="10" align="center-left">&gt;VALUE</text>
+<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="10" align="center-left">&gt;NAME</text>
+<rectangle x1="-1.2" y1="-1.4" x2="-0.7" y2="-0.8" layer="51"/>
+<rectangle x1="0.7" y1="-1.4" x2="1.2" y2="-0.8" layer="51"/>
+<rectangle x1="-0.25" y1="0.8" x2="0.25" y2="1.4" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -1734,6 +1742,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <technology name=""/>
 </technologies>
 </device>
+<device name="-0" package="SOT23-0">
+<connects>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="MCP6001" prefix="U">
@@ -1907,6 +1925,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <technology name=""/>
 </technologies>
 </device>
+<device name="-0" package="SOT23-0">
+<connects>
+<connect gate="P" pin="VIN" pad="3"/>
+<connect gate="P" pin="VOUT" pad="2"/>
+<connect gate="P" pin="VSS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RP" prefix="RP" uservalue="yes">
@@ -2008,7 +2036,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MICRO" package="USB-MICRO-5+6P-SMD-0.65-AB">
+<device name="-MICRO" package="USB-MICRO">
 <connects>
 <connect gate="A" pin="D+" pad="3"/>
 <connect gate="A" pin="D-" pad="2"/>
@@ -2176,7 +2204,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <part name="DP1" library="MyLibrary" deviceset="LED" device="-1206" value="GREEN"/>
 <part name="DP2" library="MyLibrary" deviceset="LED" device="-1206" value="GREEN"/>
 <part name="SUPPLY1" library="MyLibrary" deviceset="VDD_3V3" device=""/>
-<part name="Q1" library="MyLibrary" deviceset="NPN" device="-SOT23" value="S8050"/>
+<part name="Q1" library="MyLibrary" deviceset="NPN" device="-0" value="S8050"/>
 <part name="U3" library="MyLibrary" deviceset="MCP6001" device="-SOT23"/>
 <part name="U4" library="MyLibrary" deviceset="APDS-9008" device=""/>
 <part name="CO1" library="MyLibrary" deviceset="CAP" device="-0603" value="4.7μF"/>
@@ -2208,7 +2236,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <part name="SUPPLY26" library="MyLibrary" deviceset="VDD_3V3" device=""/>
 <part name="RTRIG" library="MyLibrary" deviceset="RES" device="-0603" value="1kΩ"/>
 <part name="SUPPLY28" library="MyLibrary" deviceset="GND" device=""/>
-<part name="U6" library="MyLibrary" deviceset="XC6206" device="-SOT23" value="3.3V"/>
+<part name="U6" library="MyLibrary" deviceset="XC6206" device="-0" value="3.3V"/>
 <part name="SUPPLY29" library="MyLibrary" deviceset="GND" device=""/>
 <part name="CVOUT" library="MyLibrary" deviceset="CAP" device="-0603" value="1μF"/>
 <part name="RP1" library="MyLibrary" deviceset="RP" device="-0603" value="470Ω"/>
@@ -2240,6 +2268,10 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <part name="FB2" library="MyLibrary" deviceset="BROAD-STICK" device=""/>
 <part name="FB3" library="MyLibrary" deviceset="BROAD-STICK" device=""/>
 <part name="FB4" library="MyLibrary" deviceset="BROAD-STICK" device=""/>
+<part name="Q2" library="MyLibrary" deviceset="NPN" device="-0" value="S8050"/>
+<part name="SUPPLY27" library="MyLibrary" deviceset="GND" device=""/>
+<part name="SUPPLY30" library="MyLibrary" deviceset="VUSB" device=""/>
+<part name="RCH" library="MyLibrary" deviceset="RES" device="-0603" value="10kΩ"/>
 </parts>
 <sheets>
 <sheet>
@@ -2276,8 +2308,6 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="60.96" y="-2.54" size="2.54" layer="97" font="vector">Display LEDs</text>
 <text x="-134.62" y="7.62" size="1.27" layer="97" font="vector">Enable internal pull-up resistors </text>
 <text x="-134.62" y="5.08" size="1.27" layer="97" font="vector">in AVR to avoid adding RSDA and RSCL.</text>
-<text x="167.64" y="-35.56" size="1.27" layer="97" font="vector">As the USB cable plugged in, the shell and the </text>
-<text x="167.64" y="-38.1" size="1.27" layer="97" font="vector">Ground Only For CH340E Connected, the battery starts to feed power.</text>
 <text x="167.64" y="-2.54" size="2.54" layer="97" font="vector">USB to TTL</text>
 <wire x1="160.02" y1="7.62" x2="160.02" y2="-43.18" width="0.4064" layer="97" style="longdash"/>
 <text x="17.78" y="48.26" size="1.27" layer="97" font="vector">Internal Pull Up Resistor Here</text>
@@ -2434,13 +2464,13 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <instance part="TS1" gate="A" x="38.1" y="38.1" rot="R90"/>
 <instance part="SUPPLY13" gate="GND" x="50.8" y="35.56"/>
 <instance part="U5" gate="P" x="93.98" y="35.56"/>
-<instance part="JP1" gate="A" x="175.26" y="-17.78" rot="MR0"/>
+<instance part="JP1" gate="A" x="170.18" y="-17.78" rot="MR0"/>
 <instance part="Y1" gate="A" x="-38.1" y="15.24"/>
-<instance part="U7" gate="G$1" x="208.28" y="-15.24"/>
+<instance part="U7" gate="G$1" x="218.44" y="-15.24"/>
 <instance part="SUPPLY16" gate="VUSB" x="71.12" y="43.18"/>
-<instance part="SUPPLY18" gate="GND" x="182.88" y="-27.94"/>
-<instance part="SUPPLY19" gate="VUSB" x="182.88" y="-7.62"/>
-<instance part="SUPPLY23" gate="VDD_3V3" x="193.04" y="-7.62"/>
+<instance part="SUPPLY18" gate="GND" x="177.8" y="-27.94"/>
+<instance part="SUPPLY19" gate="VUSB" x="177.8" y="-7.62"/>
+<instance part="SUPPLY23" gate="VDD_3V3" x="203.2" y="-7.62"/>
 <instance part="RESET" gate="A" x="-50.8" y="20.32" rot="R90"/>
 <instance part="SUPPLY24" gate="GND" x="-50.8" y="12.7"/>
 <instance part="HD1" gate="A" x="104.14" y="-22.86" rot="MR0"/>
@@ -2482,6 +2512,13 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <instance part="FB2" gate="A" x="35.56" y="-55.88"/>
 <instance part="FB3" gate="A" x="35.56" y="-63.5"/>
 <instance part="FB4" gate="A" x="35.56" y="-71.12"/>
+<instance part="Q2" gate="A" x="203.2" y="-25.4" rot="MR90"/>
+<instance part="SUPPLY27" gate="GND" x="205.74" y="-33.02"/>
+<instance part="SUPPLY30" gate="VUSB" x="185.42" y="-25.4" rot="R90"/>
+<instance part="RCH" gate="A" x="193.04" y="-25.4" smashed="yes">
+<attribute name="NAME" x="190.5" y="-30.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="-33.02" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2536,12 +2573,12 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="V3"/>
-<wire x1="195.58" y1="-10.16" x2="193.04" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-10.16" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-10.16" x2="203.2" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-10.16" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="VCC"/>
-<wire x1="193.04" y1="-12.7" x2="195.58" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-12.7" x2="205.74" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="VDD_3V3" pin="VDD_3V3"/>
-<junction x="193.04" y="-10.16"/>
+<junction x="203.2" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="VDD_3V3" pin="VDD_3V3"/>
@@ -2630,8 +2667,12 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <segment>
 <pinref part="JP1" gate="A" pin="SHELL"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<wire x1="180.34" y1="-22.86" x2="182.88" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-22.86" x2="182.88" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-22.86" x2="177.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-22.86" x2="177.8" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="GND"/>
+<wire x1="175.26" y1="-20.32" x2="177.8" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-20.32" x2="177.8" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="177.8" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="TS1" gate="A" pin="2"/>
@@ -2673,6 +2714,10 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <wire x1="25.4" y1="-71.12" x2="25.4" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="25.4" y="-71.12"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="A" pin="E"/>
+<pinref part="SUPPLY27" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -2836,8 +2881,8 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="TXD"/>
-<wire x1="220.98" y1="-10.16" x2="226.06" y2="-10.16" width="0.1524" layer="91"/>
-<label x="226.06" y="-10.16" size="1.778" layer="95" font="vector"/>
+<wire x1="231.14" y1="-10.16" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
+<label x="236.22" y="-10.16" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -2848,8 +2893,8 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="RXD"/>
-<wire x1="220.98" y1="-12.7" x2="226.06" y2="-12.7" width="0.1524" layer="91"/>
-<label x="226.06" y="-12.7" size="1.778" layer="95" font="vector"/>
+<wire x1="231.14" y1="-12.7" x2="236.22" y2="-12.7" width="0.1524" layer="91"/>
+<label x="236.22" y="-12.7" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="MOSI/DIS5" class="0">
@@ -3078,14 +3123,18 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <segment>
 <pinref part="JP1" gate="A" pin="VBUS"/>
 <pinref part="SUPPLY19" gate="VUSB" pin="VUSB"/>
-<wire x1="180.34" y1="-12.7" x2="182.88" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-12.7" x2="182.88" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-12.7" x2="177.8" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-12.7" x2="177.8" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RCH" gate="A" pin="2"/>
+<pinref part="SUPPLY30" gate="VUSB" pin="VUSB"/>
 </segment>
 </net>
 <net name="UD-" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="D-"/>
-<wire x1="180.34" y1="-15.24" x2="195.58" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-15.24" x2="205.74" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="UD-"/>
 </segment>
 </net>
@@ -3093,14 +3142,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <segment>
 <pinref part="JP1" gate="A" pin="D+"/>
 <pinref part="U7" gate="G$1" pin="UD+"/>
-<wire x1="180.34" y1="-17.78" x2="195.58" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GND(CH340E)" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="GND"/>
-<pinref part="U7" gate="G$1" pin="GND"/>
-<wire x1="180.34" y1="-20.32" x2="195.58" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-17.78" x2="205.74" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT0" class="0">
@@ -3219,6 +3261,18 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <pinref part="HD3" gate="A" pin="6"/>
 <wire x1="200.66" y1="27.94" x2="210.82" y2="27.94" width="0.1524" layer="91"/>
 <junction x="210.82" y="27.94"/>
+</segment>
+</net>
+<net name="GND(CH340E)" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<pinref part="Q2" gate="A" pin="C"/>
+</segment>
+</net>
+<net name="TRIGND" class="0">
+<segment>
+<pinref part="Q2" gate="A" pin="B"/>
+<pinref part="RCH" gate="A" pin="1"/>
 </segment>
 </net>
 </nets>
