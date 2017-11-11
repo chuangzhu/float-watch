@@ -1,0 +1,13 @@
+# Production:
+/production/*
+
+# Backup:
+*.s#?
+*.b#?
+
+# CAM:
+/Gerber/*
+# *.zip
+
+# Print:
+# *.pdf
