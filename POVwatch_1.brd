@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -1634,16 +1634,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <rectangle x1="1.2" y1="-0.9" x2="1.85" y2="0.9" layer="51"/>
 </package>
 <package name="MSOP10">
-<smd name="8" x="1.805" y="0" dx="0.99" dy="0.25" layer="1"/>
-<smd name="3" x="-1.805" y="0" dx="0.99" dy="0.25" layer="1"/>
-<smd name="2" x="-1.805" y="0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="1" x="-1.805" y="1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="4" x="-1.805" y="-0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="5" x="-1.805" y="-1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="7" x="1.805" y="-0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="6" x="1.805" y="-1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="9" x="1.805" y="0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="10" x="1.805" y="1" dx="0.99" dy="0.25" layer="1"/>
+<smd name="8" x="2.055" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="3" x="-2.055" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="2" x="-2.055" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="1" x="-2.055" y="1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="4" x="-2.055" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="5" x="-2.055" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="7" x="2.055" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="6" x="2.055" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="9" x="2.055" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="10" x="2.055" y="1" dx="0.9" dy="0.3" layer="1"/>
 <wire x1="-1.4" y1="1.45" x2="1.4" y2="1.45" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-1.45" x2="1.4" y2="-1.45" width="0.127" layer="21"/>
 <circle x="-0.873125" y="0.714375" radius="0.1016" width="0.3048" layer="21"/>
@@ -1651,16 +1651,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-1.905" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-1.4" y1="1.45" x2="-1.4" y2="-1.45" width="0.127" layer="51"/>
 <wire x1="1.4" y1="1.45" x2="1.4" y2="-1.45" width="0.127" layer="51"/>
-<rectangle x1="-2.1" y1="0.9" x2="-1.4" y2="1.1" layer="51"/>
-<rectangle x1="-2.1" y1="0.4" x2="-1.4" y2="0.6" layer="51"/>
-<rectangle x1="-2.1" y1="-0.1" x2="-1.4" y2="0.1" layer="51"/>
-<rectangle x1="-2.1" y1="-0.6" x2="-1.4" y2="-0.4" layer="51"/>
-<rectangle x1="-2.1" y1="-1.1" x2="-1.4" y2="-0.9" layer="51"/>
-<rectangle x1="1.4" y1="-1.1" x2="2.1" y2="-0.9" layer="51"/>
-<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="-0.4" layer="51"/>
-<rectangle x1="1.4" y1="-0.1" x2="2.1" y2="0.1" layer="51"/>
-<rectangle x1="1.4" y1="0.4" x2="2.1" y2="0.6" layer="51"/>
-<rectangle x1="1.4" y1="0.9" x2="2.1" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="0.9" x2="-1.6" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="0.4" x2="-1.6" y2="0.6" layer="51"/>
+<rectangle x1="-2.3" y1="-0.1" x2="-1.6" y2="0.1" layer="51"/>
+<rectangle x1="-2.3" y1="-0.6" x2="-1.6" y2="-0.4" layer="51"/>
+<rectangle x1="-2.3" y1="-1.1" x2="-1.6" y2="-0.9" layer="51"/>
+<rectangle x1="1.6" y1="-1.1" x2="2.3" y2="-0.9" layer="51"/>
+<rectangle x1="1.6" y1="-0.6" x2="2.3" y2="-0.4" layer="51"/>
+<rectangle x1="1.6" y1="-0.1" x2="2.3" y2="0.1" layer="51"/>
+<rectangle x1="1.6" y1="0.4" x2="2.3" y2="0.6" layer="51"/>
+<rectangle x1="1.6" y1="0.9" x2="2.3" y2="1.1" layer="51"/>
 </package>
 <package name="JMPER-SMD">
 <wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
@@ -2091,9 +2091,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-3.175" y="27.94" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="Y1" library="MyLibrary" package="CSTCE" value="7.3728MHz" x="12.065" y="22.225" rot="R270"/>
-<element name="U7" library="MyLibrary" package="MSOP10" value="CH340E" x="8.255" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.36625" y="21.9075" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="5.715" y="24.765" size="0.8128" layer="27" font="vector" rot="R270"/>
+<element name="U7" library="MyLibrary" package="MSOP10" value="CH340E" x="8.255" y="23.1775" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.36625" y="22.225" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="5.715" y="25.0825" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="RESET" library="MyLibrary" package="JMPER-SMD" value="JUMPER-SMD" x="24.13" y="26.9875" smashed="yes" rot="MR90">
 <attribute name="NAME" x="22.86" y="26.9875" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
@@ -2160,7 +2160,7 @@ design rules under a new name.</description>
 <wire x1="14.2875" y1="21.2725" x2="14.2875" y2="22.225" width="0.3048" layer="1"/>
 <wire x1="10.4775" y1="21.59" x2="10.4775" y2="24.765" width="0.3048" layer="1"/>
 <wire x1="10.4775" y1="24.765" x2="11.1125" y2="25.4" width="0.3048" layer="1"/>
-<wire x1="7.755" y1="21.055" x2="7.755" y2="20.1375" width="0.254" layer="1"/>
+<wire x1="7.755" y1="21.1225" x2="7.755" y2="20.1375" width="0.254" layer="1"/>
 <via x="7.62" y="20.0025" extent="1-16" drill="0.3"/>
 <via x="9.525" y="20.0025" extent="1-16" drill="0.3"/>
 <wire x1="7.755" y1="20.1375" x2="7.62" y2="20.0025" width="0.254" layer="1"/>
@@ -2181,7 +2181,7 @@ design rules under a new name.</description>
 <wire x1="8.89" y1="20.955" x2="9.525" y2="20.32" width="0.254" layer="16"/>
 <wire x1="9.525" y1="20.32" x2="9.525" y2="20.0025" width="0.254" layer="16"/>
 <wire x1="9.525" y1="20.0025" x2="9.255" y2="20.2725" width="0.254" layer="1"/>
-<wire x1="9.255" y1="20.2725" x2="9.255" y2="21.055" width="0.254" layer="1"/>
+<wire x1="9.255" y1="20.2725" x2="9.255" y2="21.1225" width="0.254" layer="1"/>
 <wire x1="9.525" y1="20.0025" x2="9.8425" y2="20.0025" width="0.3048" layer="1"/>
 <wire x1="9.8425" y1="20.0025" x2="10.16" y2="20.32" width="0.3048" layer="1"/>
 <wire x1="10.16" y1="20.32" x2="10.16" y2="21.2725" width="0.3048" layer="1"/>
@@ -2483,7 +2483,7 @@ design rules under a new name.</description>
 <signal name="RXD">
 <contactref element="U1" pad="30"/>
 <contactref element="U7" pad="8"/>
-<wire x1="8.255" y1="21.055" x2="8.255" y2="20.32" width="0.254" layer="1"/>
+<wire x1="8.255" y1="21.1225" x2="8.255" y2="20.32" width="0.254" layer="1"/>
 <wire x1="8.255" y1="20.32" x2="8.5725" y2="20.0025" width="0.254" layer="1"/>
 <via x="8.5725" y="20.0025" extent="1-16" drill="0.3"/>
 <wire x1="17.03" y1="23.2925" x2="17.03" y2="24.09" width="0.254" layer="1"/>
@@ -2519,7 +2519,7 @@ design rules under a new name.</description>
 <via x="9.525" y="22.225" extent="1-16" drill="0.3"/>
 <wire x1="9.525" y1="22.225" x2="9.2075" y2="22.225" width="0.254" layer="1"/>
 <wire x1="9.2075" y1="22.225" x2="8.755" y2="21.7725" width="0.254" layer="1"/>
-<wire x1="8.755" y1="21.055" x2="8.755" y2="21.7725" width="0.254" layer="1"/>
+<wire x1="8.755" y1="21.1225" x2="8.755" y2="21.7725" width="0.254" layer="1"/>
 <wire x1="16.51" y1="29.21" x2="16.51" y2="25.4" width="0.254" layer="16"/>
 <via x="16.35125" y="25.24125" extent="1-16" drill="0.3"/>
 <wire x1="16.53" y1="25.0625" x2="16.53" y2="24.09" width="0.254" layer="1"/>
@@ -2841,7 +2841,7 @@ design rules under a new name.</description>
 <via x="2.54" y="24.765" extent="1-16" drill="0.3"/>
 <via x="8.5725" y="23.1775" extent="1-16" drill="0.3"/>
 <wire x1="8.5725" y1="23.1775" x2="8.755" y2="23.36" width="0.254" layer="1"/>
-<wire x1="8.755" y1="23.36" x2="8.755" y2="24.665" width="0.254" layer="1"/>
+<wire x1="8.755" y1="23.36" x2="8.755" y2="25.2325" width="0.254" layer="1"/>
 <wire x1="8.5725" y1="23.1775" x2="6.985" y2="24.765" width="0.254" layer="16"/>
 <wire x1="6.985" y1="24.765" x2="2.54" y2="24.765" width="0.254" layer="16"/>
 </signal>
@@ -2854,14 +2854,14 @@ design rules under a new name.</description>
 <wire x1="7.62" y1="22.5425" x2="7.9375" y2="22.225" width="0.254" layer="1"/>
 <wire x1="7.9375" y1="22.225" x2="8.5725" y2="22.225" width="0.254" layer="1"/>
 <wire x1="8.5725" y1="22.225" x2="9.255" y2="22.9075" width="0.254" layer="1"/>
-<wire x1="9.255" y1="22.9075" x2="9.255" y2="24.665" width="0.254" layer="1"/>
+<wire x1="9.255" y1="22.9075" x2="9.255" y2="25.2325" width="0.254" layer="1"/>
 <wire x1="7.62" y1="22.5425" x2="6.0325" y2="24.13" width="0.254" layer="16"/>
 <wire x1="6.0325" y1="24.13" x2="3.4925" y2="24.13" width="0.254" layer="16"/>
 </signal>
 <signal name="GND(CH340E)">
 <contactref element="JP1" pad="5"/>
 <contactref element="U7" pad="3"/>
-<wire x1="8.255" y1="23.8125" x2="8.255" y2="24.665" width="0.254" layer="1"/>
+<wire x1="8.255" y1="23.8125" x2="8.255" y2="25.2325" width="0.254" layer="1"/>
 <wire x1="4.78" y1="22.83" x2="4.81" y2="22.86" width="0.254" layer="1"/>
 <wire x1="4.81" y1="22.86" x2="6.985" y2="22.86" width="0.254" layer="1"/>
 <wire x1="6.985" y1="22.86" x2="7.3025" y2="23.1775" width="0.254" layer="1"/>

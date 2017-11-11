@@ -778,16 +778,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <rectangle x1="1.2" y1="-0.9" x2="1.85" y2="0.9" layer="51"/>
 </package>
 <package name="MSOP10">
-<smd name="8" x="1.805" y="0" dx="0.99" dy="0.25" layer="1"/>
-<smd name="3" x="-1.805" y="0" dx="0.99" dy="0.25" layer="1"/>
-<smd name="2" x="-1.805" y="0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="1" x="-1.805" y="1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="4" x="-1.805" y="-0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="5" x="-1.805" y="-1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="7" x="1.805" y="-0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="6" x="1.805" y="-1" dx="0.99" dy="0.25" layer="1"/>
-<smd name="9" x="1.805" y="0.5" dx="0.99" dy="0.25" layer="1"/>
-<smd name="10" x="1.805" y="1" dx="0.99" dy="0.25" layer="1"/>
+<smd name="8" x="2.055" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="3" x="-2.055" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="2" x="-2.055" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="1" x="-2.055" y="1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="4" x="-2.055" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="5" x="-2.055" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="7" x="2.055" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="6" x="2.055" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="9" x="2.055" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="10" x="2.055" y="1" dx="0.9" dy="0.3" layer="1"/>
 <wire x1="-1.4" y1="1.45" x2="1.4" y2="1.45" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-1.45" x2="1.4" y2="-1.45" width="0.127" layer="21"/>
 <circle x="-0.873125" y="0.714375" radius="0.1016" width="0.3048" layer="21"/>
@@ -795,16 +795,16 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-1.905" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-1.4" y1="1.45" x2="-1.4" y2="-1.45" width="0.127" layer="51"/>
 <wire x1="1.4" y1="1.45" x2="1.4" y2="-1.45" width="0.127" layer="51"/>
-<rectangle x1="-2.1" y1="0.9" x2="-1.4" y2="1.1" layer="51"/>
-<rectangle x1="-2.1" y1="0.4" x2="-1.4" y2="0.6" layer="51"/>
-<rectangle x1="-2.1" y1="-0.1" x2="-1.4" y2="0.1" layer="51"/>
-<rectangle x1="-2.1" y1="-0.6" x2="-1.4" y2="-0.4" layer="51"/>
-<rectangle x1="-2.1" y1="-1.1" x2="-1.4" y2="-0.9" layer="51"/>
-<rectangle x1="1.4" y1="-1.1" x2="2.1" y2="-0.9" layer="51"/>
-<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="-0.4" layer="51"/>
-<rectangle x1="1.4" y1="-0.1" x2="2.1" y2="0.1" layer="51"/>
-<rectangle x1="1.4" y1="0.4" x2="2.1" y2="0.6" layer="51"/>
-<rectangle x1="1.4" y1="0.9" x2="2.1" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="0.9" x2="-1.6" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="0.4" x2="-1.6" y2="0.6" layer="51"/>
+<rectangle x1="-2.3" y1="-0.1" x2="-1.6" y2="0.1" layer="51"/>
+<rectangle x1="-2.3" y1="-0.6" x2="-1.6" y2="-0.4" layer="51"/>
+<rectangle x1="-2.3" y1="-1.1" x2="-1.6" y2="-0.9" layer="51"/>
+<rectangle x1="1.6" y1="-1.1" x2="2.3" y2="-0.9" layer="51"/>
+<rectangle x1="1.6" y1="-0.6" x2="2.3" y2="-0.4" layer="51"/>
+<rectangle x1="1.6" y1="-0.1" x2="2.3" y2="0.1" layer="51"/>
+<rectangle x1="1.6" y1="0.4" x2="2.3" y2="0.6" layer="51"/>
+<rectangle x1="1.6" y1="0.9" x2="2.3" y2="1.1" layer="51"/>
 </package>
 <package name="QFN32">
 <description>&lt;h3&gt;32-pin QFN 5.0 x 5.0 mm, 0.5mm pitch&lt;/h3&gt;

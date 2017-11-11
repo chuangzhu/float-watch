@@ -5,6 +5,9 @@
 *.s#?
 *.b#?
 
+# Script:
+*.ps1
+
 # CAM:
 /Gerber/*
 # *.zip
