@@ -718,7 +718,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-3.84" y="6" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 <text x="-3.9" y="-6" size="0.8128" layer="21" font="vector">USB_MINI</text>
 </package>
-<package name="USB-MICRO-5+6P-SMD-0.65-AB">
+<package name="USB-MICRO">
 <smd name="2" x="-0.65" y="2.875" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="1" x="-1.3" y="2.875" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0" y="2.875" dx="1.35" dy="0.4" layer="1" rot="R90"/>
@@ -1052,9 +1052,9 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <smd name="10" x="2.25" y="0" dx="0.29" dy="2.5" layer="1"/>
 </package>
 <package name="BOARD-STICK">
-<smd name="TOP" x="0" y="4.6" dx="2.4" dy="11.2" layer="1"/>
-<wire x1="0" y1="0" x2="0" y2="6.985" width="0.7" layer="46"/>
-<smd name="BOT" x="0" y="4.6" dx="2.4" dy="11.2" layer="16" rot="R180"/>
+<smd name="TOP" x="0" y="4.2825" dx="2.4" dy="10.6" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="6.35" width="0.7" layer="46"/>
+<smd name="BOT" x="0" y="4.2825" dx="2.4" dy="10.6" layer="16" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -2008,7 +2008,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MICRO" package="USB-MICRO-5+6P-SMD-0.65-AB">
+<device name="-MICRO" package="USB-MICRO">
 <connects>
 <connect gate="A" pin="D+" pad="3"/>
 <connect gate="A" pin="D-" pad="2"/>
