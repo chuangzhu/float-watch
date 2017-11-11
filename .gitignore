@@ -1,7 +1,8 @@
 # Production:
 /production/*
 
-# Backup:
+# Eagle:
+eagle.epf
 *.s#?
 *.b#?
 
