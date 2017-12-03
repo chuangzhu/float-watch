@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2007,9 +2007,9 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <device name="" package="SOT23-5">
 <connects>
 <connect gate="P" pin="!CHRG" pad="1"/>
-<connect gate="P" pin="BAT" pad="5"/>
+<connect gate="P" pin="BAT" pad="3"/>
 <connect gate="P" pin="GND" pad="2"/>
-<connect gate="P" pin="PROG" pad="3"/>
+<connect gate="P" pin="PROG" pad="5"/>
 <connect gate="P" pin="VCC" pad="4"/>
 </connects>
 <technologies>
