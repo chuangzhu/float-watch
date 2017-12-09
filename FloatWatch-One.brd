@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2073,7 +2073,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.255" y="29.5275" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="10.795" y="26.67" size="0.6096" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="RPROG" library="MyLibrary" package="SMD0603" value="1kΩ" x="11.43" y="35.56" smashed="yes" rot="R270">
+<element name="RPROG" library="MyLibrary" package="SMD0603" value="1.66kΩ+" x="11.43" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.22375" y="36.83" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="10.16" y="36.83" size="0.6096" layer="27" font="vector" rot="R270"/>
 </element>
