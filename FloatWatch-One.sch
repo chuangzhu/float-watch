@@ -2007,9 +2007,9 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <device name="" package="SOT23-5">
 <connects>
 <connect gate="P" pin="!CHRG" pad="1"/>
-<connect gate="P" pin="BAT" pad="5"/>
+<connect gate="P" pin="BAT" pad="3"/>
 <connect gate="P" pin="GND" pad="2"/>
-<connect gate="P" pin="PROG" pad="3"/>
+<connect gate="P" pin="PROG" pad="5"/>
 <connect gate="P" pin="VCC" pad="4"/>
 </connects>
 <technologies>
@@ -2227,7 +2227,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <part name="CBAT" library="MyLibrary" deviceset="CAP" device="-0603" value="10μF"/>
 <part name="LI-ION" library="MyLibrary" deviceset="BATTERY" device="-SMD" value="BATTERY-SMD"/>
 <part name="SUPPLY17" library="MyLibrary" deviceset="GND" device=""/>
-<part name="RPROG" library="MyLibrary" deviceset="RES" device="-0603" value="1kΩ"/>
+<part name="RPROG" library="MyLibrary" deviceset="RES" device="-0603" value="1.66kΩ+"/>
 <part name="SUPPLY20" library="MyLibrary" deviceset="VBAT" device=""/>
 <part name="SUPPLY21" library="MyLibrary" deviceset="VBAT" device=""/>
 <part name="SUPPLY22" library="MyLibrary" deviceset="VDD_3V3" device=""/>
@@ -2316,6 +2316,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="-58.42" y="30.48" size="1.27" layer="97" font="vector">Internal Pull Up Resistor Here</text>
 <text x="187.96" y="50.8" size="2.54" layer="97" font="vector">Display LEDs</text>
 <wire x1="182.88" y1="60.96" x2="182.88" y2="7.62" width="0.4064" layer="97" style="longdash"/>
+<text x="63.5" y="12.7" size="1.27" layer="97" font="vector">The greater is RPROG, the smaller is the charging current</text>
 </plain>
 <instances>
 <instance part="U1" gate="P" x="0" y="0"/>
@@ -2406,8 +2407,8 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </instance>
 <instance part="SUPPLY17" gate="GND" x="93.98" y="20.32"/>
 <instance part="RPROG" gate="A" x="106.68" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="104.14" y="25.4" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="25.4" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="104.14" y="20.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="104.14" y="17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY20" gate="VBAT" x="132.08" y="40.64" rot="R270"/>
 <instance part="SUPPLY21" gate="VBAT" x="142.24" y="40.64" rot="R90"/>
