@@ -18,8 +18,5 @@ void USART_SendByte(unsigned char x);	//发送一个字节
 void USART_SendData(const char *data, unsigned int leng);	//向USART发送字符串（不换行）
 void USART_Print(int data);	//向USART以ASCII形式发送int
 void USART_SendLine(void);	//向USART发送回车换行
-/*
-void USART_SendFloat(float data);	//向USART发送浮点数（通过联合体）
-*/
 
 #endif

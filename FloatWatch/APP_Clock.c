@@ -19,9 +19,6 @@
 #define	TCNT1_Init	(0xFFFF-(F_CPU/256))
 
 unsigned char time[3] = {0, 30, 17};
-			/*__TIME__ 程序被编译的时间, 以"hh:mm:ss"格式的字符串标注
-			char str[9] = __TIME__;
-			hour = (str[0]-48)*10 + (str[1]-48);*/
 
 void Clock_Init(void)
 {

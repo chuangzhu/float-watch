@@ -14,7 +14,6 @@ unsigned int HV;	//Heart Value
 unsigned char HT = 0;	//Heartbeat Times
 unsigned int HR;	//Heart Rate
 
-//#define ConReq() ((preHV<PulseLStd)&&(HV>PulseLStd)&&(HV<PulseHStd))
 void Heart_Count(void)	//想办法短时间间隔不断执行
 {
 	static unsigned int oldHV;	//Last Heart Valve

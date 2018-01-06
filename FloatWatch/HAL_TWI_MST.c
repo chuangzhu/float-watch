@@ -48,13 +48,6 @@ void TWI_Write(unsigned char SlaveAddress, unsigned char RegisterAddress, unsign
 {
 	unsigned char dataArray[1]={data};
 	TWI_MultiWrite(SlaveAddress, RegisterAddress, dataArray, 1);
-	/*	以下为旧版内容
-	TWI_Start();	//发送START信号
-	TWI_SendByte(SlaveAddress|TW_WRITE);	//指定从机地址，方向写
-	TWI_SendByte(RegisterAddress);	//发送数据地址
-	TWI_SendByte(data);	//写入数据
-	TWI_Stop();
-	*/
 }
 
 void TWI_MultiWrite(unsigned char SlaveAddress, unsigned char RegisterAddress, unsigned char data[], unsigned char leng)
@@ -72,18 +65,6 @@ unsigned char TWI_Query(unsigned char SlaveAddress, unsigned char RegisterAddres
 	unsigned char ResultArray[1];
 	TWI_MultiQuery(SlaveAddress, RegisterAddress, ResultArray, 1);
 	return ResultArray[0];
-	/*	以下为旧版内容
-	unsigned char Result;
-	TWI_Start();	//发送START信号
-	TWI_SendByte(SlaveAddress|TW_WRITE);	//指定从机地址，方向写
-	TWI_SendByte(RegisterAddress);	//发送数据地址
-	TWI_Start();	//发送RESTART信号
-	TWI_SendByte(SlaveAddress|TW_READ);	//指定从机地址，方向读
-	Result=TWI_RecvByte();	//读出返回的结果
-	TWI_SendNoAck();	//发送NACK信号
-	TWI_Stop();	//发送STOP信号
-	return Result;
-	*/
 }
 
 void TWI_MultiQuery(unsigned char SlaveAddress, unsigned char RegisterAddress, unsigned char Result[], unsigned char leng)

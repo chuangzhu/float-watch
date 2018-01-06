@@ -13,7 +13,6 @@
 #include "APP_Clock.h"
 
 void comReg(unsigned char Data);
-/*	#define comReg(Data)	{PORTB|=(Data>>2);PORTB&=((Data>>2)+(0xFF<<6));PORTD|=(Data<<6);PORTD&=((Data<<6)+(0xFF>>2));}	*/
 
 void displayTime(void);
 
